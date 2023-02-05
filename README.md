@@ -43,3 +43,7 @@ npm install scrapper
 ## License
 
 MIT
+
+## Maintainer
+
+* [Adeniyi Aderounmu](https://github.com/teebarg)

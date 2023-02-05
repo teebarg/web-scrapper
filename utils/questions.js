@@ -4,11 +4,11 @@ module.exports = async () => {
 	const url = await ask({
 		name: `url`,
 		message: `Website URL?`,
-		initial: `https://www.jumia.com.ng/mlp-stay-connected-deals/mobile-phones`
+		initial: ``
 	});
 	const productElements = await ask({
 		name: `productElements`,
-		message: `Product Class?`,
+		message: `Product Container Class?`,
 		initial: `.c-prd`
 	});
 	const nameClass = await ask({
@@ -24,7 +24,7 @@ module.exports = async () => {
 	});
 	const linkClass = await ask({
 		name: `linkClass`,
-		message: `Link Class?`,
+		message: `URL Class?`,
 		initial: `.core`
 	});
 	const discountClass = await ask({

@@ -1,6 +1,6 @@
 {
 	"name": "scraper",
-	"description": "A cli to scrape websites",
+	"description": "A cli tool to scrape websites",
 	"version": "0.0.1",
 	"license": "MIT",
 	"bin": {
